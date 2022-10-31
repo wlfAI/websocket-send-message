@@ -18,7 +18,7 @@ Visual Studio 2017
 
 注意，下面的服务器端和客户端代码均写入了这一句——#pragma comment(lib, "ws2_32.lib") //加载 ws2_32.lib，因此两个程序都需要添加ws2_32.lib静态链接库。
 
-2. 运行服务器端代码Sever.cpp
+2. 建立第一个项目,运行服务器端代码Sever.cpp 
 
 在运行服务器端代码时，有的vs会出现如下错误error C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings，如下图：
 
@@ -38,7 +38,7 @@ Visual Studio 2017
 
 ![0](https://user-images.githubusercontent.com/51230137/198981954-0b9c810f-7894-4e7a-b164-824b725ae627.png)
 
-3. 运行客户端代码Client.cpp
+3. 建立第二个项目,运行客户端代码Client.cpp
 
 4. 运行调试
 先运行 服务器端程序，再运行客户端程序，输出结果为：
