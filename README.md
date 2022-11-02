@@ -2,11 +2,11 @@
 server send message , client receive message
 
 
-##Required environment:
+## Required environment:
 
 Visual Studio 2017
 
-##实现步骤
+## 实现步骤
 
 ### 1. 在vs下添加ws2_32.lib库
 
