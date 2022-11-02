@@ -2,9 +2,11 @@
 server send message , client receive message
 
 
-## Required environment:
+## Required environments:
 
 Visual Studio 2017
+
+windows
 
 ## 实现步骤
 
